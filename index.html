@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <title>Converter</title> -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <label for="amount">Введите сумму</label>
+            <input type="text" name="amount" id="amount">
+        </div>
+        <div class="box">
+            <select name="currency" id="currency">
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="kzt">KZT</option>
+            </select>
+        </div>
+        <div class="box">
+            <label for="amount-kzt" id="amount-lbl">KZT (tenge)</label>
+            <input type="text" name="amount-kzt" id="amount-kzt">
+        </div>
+        <div class="box">
+            <label for="amount-usd" id="amount-lbl">USD (dollar)</label>
+            <input type="text" name="amount-usd" id="amount-usd">
+        </div>
+        <div class="box">
+            <label for="amount-eur" id="amount-lbl">EUR (euro)</label>
+            <input type="text" name="amount-eur" id="amount-eur">
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

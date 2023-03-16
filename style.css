@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 20px;
+    width: fit-content;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+input{
+    border: 1px solid gray;
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+select{
+    height: 28px;
+    width: 100px;
+    position: relative;
+    top: 24px;
+    border-radius: 4px;
+}
+#amount-lbl{
+    font-weight: bold;
+}
